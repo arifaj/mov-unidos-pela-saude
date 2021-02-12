@@ -1,0 +1,46 @@
+.main{
+    color: #FFF;
+    text-align: center;
+    padding: 90px 0;
+    font-family: 'Barlow', sans-serif;
+    background: #171719 url("../bg.png")  no-repeat center 50%;
+}
+.main img{
+    width: 250px;
+}
+.main img,
+.main h1,
+.main h2{
+    margin-bottom: 45px;
+}
+.main h2{
+    font-size: 3em;
+}
+.main span{
+    color: #44E605;
+}
+
+.main a{
+
+    background-color: transparent; /* Green */
+      border-width: 1px;
+      border-color: #44E605;
+      border-radius: 500px;
+      border-style: solid;
+      color: #44E605;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+}
+
+.logos{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.logos img{
+    margin-top: 25px;
+    width: 90%;
+}
