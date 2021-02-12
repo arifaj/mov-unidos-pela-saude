@@ -22,24 +22,44 @@
 }
 
 .main a{
-
     background-color: transparent; /* Green */
-      border-width: 1px;
-      border-color: #44E605;
-      border-radius: 500px;
-      border-style: solid;
-      color: #44E605;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
+    border-width: 1px;
+    border-color: #44E605;
+    border-radius: 500px;
+    border-style: solid;
+    color: #44E605;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.main a:hover{
+    background-color: transparent; /* Green */
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 500px;
+    border-style: solid;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .logos{
     max-width: 80%;
     margin: 0 auto;
+    display: flex;
+      flex-direction: row;
 }
+
+@media only screen and (max-width: 600px) {
+    .logos{
+        flex-direction: column;
+    }
+  }
 
 .logos img{
     margin-top: 25px;
