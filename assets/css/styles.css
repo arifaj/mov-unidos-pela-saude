@@ -52,7 +52,11 @@
     max-width: 80%;
     margin: 0 auto;
     display: flex;
-      flex-direction: row;
+    flex-direction: row;
+}
+
+.container .logos:last-child{
+    margin-bottom: 16px;
 }
 
 @media only screen and (max-width: 600px) {
