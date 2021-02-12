@@ -12,6 +12,7 @@
 .main h1,
 .main h2{
     margin-bottom: 45px;
+    font-weight: 600;
 }
 .main h2{
     font-size: 3em;
